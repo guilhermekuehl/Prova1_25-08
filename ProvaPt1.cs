@@ -2,7 +2,7 @@
 
 namespace provas
 {
-    class Program
+    class ProvaPt1
     {
         
 
@@ -38,7 +38,7 @@ namespace provas
         {
             var arrayLength = 5;
             var name = new string[arrayLength];
-            var single = new string?[arrayLength];
+            var single = new string[arrayLength];
             var input = "";
 
             for (int i = 0; i < arrayLength; i++)
@@ -91,9 +91,9 @@ namespace provas
             
         }
 
-        static void Main(string[] args)
+        static void off(string[] args)
         {
-            Question4();
+            Question2();    
         }
     }
 }
